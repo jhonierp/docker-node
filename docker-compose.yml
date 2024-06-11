@@ -1,7 +1,7 @@
- frontend-app: 
- services:
+services:
+  frontend-app: 
     build: .
     ports:
       - "3000:3000"
     volumes:
-      - .:/frontend-app
+      - .:/app
